@@ -15,7 +15,7 @@ func Default(env runtime.Environment, warning bool) *Config {
 		exitTemplate = " CONFIG ERROR "
 	}
 	cfg := &Config{
-		Version:    2,
+		Version:    3,
 		FinalSpace: true,
 		Blocks: []*Block{
 			{
