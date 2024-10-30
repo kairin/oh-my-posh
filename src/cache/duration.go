@@ -8,7 +8,10 @@ import (
 
 type Duration string
 
-const INFINITE = Duration("infinite")
+const (
+	INFINITE = Duration("infinite")
+	ONEWEEK  = Duration("1week")
+)
 
 func (d Duration) Seconds() int {
 	if d == INFINITE {
