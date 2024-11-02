@@ -12,6 +12,7 @@
     "sumneko.lua",
     "bmalehorn.vscode-fish",
     "elves.elvish",
-    "jnoortheen.xonsh"
+    "jnoortheen.xonsh",
+    "pkief.material-icon-theme"
   ]
 }
