@@ -217,10 +217,7 @@
         }
       ],
       "type": "prompt"
-    }
-        
-      ],
-      "type": "rprompt"
+    
     }
   ],
   "console_title_template": "{{.UserName}}@{{.HostName}} : {{.Folder}}",
